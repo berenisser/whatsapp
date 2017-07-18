@@ -1,0 +1,192 @@
+/*
+colores
+Verde calipso: #009B8B;
+Gris clarito: #C0F4C0;
+verde menta: #D3FFC2;
+gris fondo monitos: #EDE9E3;
+color gris slider: #CACACA;
+gray oscuro letras #767676
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.fondo-principal{
+	position: relative;
+	background-color: #DEDEDE;
+	padding: 0;
+	z-index: -1;
+}
+
+.borde-calipso{
+	background-color: #009B8B;
+	width: 100%;
+	height: 100px;
+}
+
+.caja-grande{
+	position: fixed;
+	top: 40px;
+	left: 100px;
+	width: 1100px;
+	height: 572px;
+	z-index: 1;
+	background-color: #EAE6E0;
+	margin: 0;
+}
+
+.izquierda{
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+.derecha{
+	padding: 0;
+	margin: 0;
+}
+
+.perfil{
+	border-radius: 50%;
+	width: 100%;
+}
+
+.izq-top{
+	background-color: #EEEEEE;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.input-buscar{
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid #CACACA;
+	padding: 5px;
+}
+
+.izq-blanco{
+	background-color: #fff;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+}
+
+.div-conversaciones{
+	width: 100%;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #CACACA;
+	border-left: 1px solid #CACACA;
+	cursor: pointer;
+}
+
+.fotito{
+	width: 31px;
+	height: 31px;
+}
+
+.pd-0{
+	padding: 0;
+}
+
+.pd-left-0{
+	padding-left: 0;
+}
+
+.mg-0{
+	margin:0;
+}
+
+h5{
+	font-size: .9rem;
+	margin-bottom: 3px;
+}
+
+p{
+	font-size: .8rem;
+	margin-bottom: 0;
+}
+
+.gris {
+	color: #767676;
+}
+
+.derecha-top{
+	border-left: 1px solid #CACACA;
+	border-bottom: 1px solid #CACACA;
+}
+
+.caja-mensajes-nuevos{
+	background-color: #F2F0ED;
+	position: absolute;
+	bottom: 0;
+}
+
+.caja-monitos{
+	background-color: #EDE9E3;
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.monito-bg{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-repeat: repeat;
+	background-image: url("../image/chat-panel-bg.png");
+}
+
+.titulo-derecha{
+	position: absolute;
+	left: 60px;
+}
+
+.h5-titulo-derecha{
+	margin-bottom: -3px;
+}
+
+.caja-contenido-mensajes{
+	padding: 0 20px 5 20;
+	margin: 0;
+}
+
+.mensaje-amigo{
+	background-color: #fff;
+	padding: 8px 10px;
+	border-radius: 3px;
+	margin-bottom: 2px;
+}
+
+.mensaje-mio{
+	background-color: #D3FFC2;
+	padding: 8px 10px;
+	border-radius: 3px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+.andrea{
+	color: pink;
+}
+
+.aldo{
+	color: #27D9B3;
+}
+
+.gian{
+	color: #E0C360;
+}
+
+.margin-50{
+	margin-top: 60px;
+}
